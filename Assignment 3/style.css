@@ -1,0 +1,55 @@
+/* headers */
+        #thebigone {
+            color: #eeeeee;
+            background-color: #333333;
+        }
+    /*h1 modifier applies to P2 and P3*/
+        h1{
+            color: #888888;
+            background-color: #333333;
+        }
+            
+        h2{
+            color: #559977;
+            background-color: #333333;
+        }
+        
+        .nav{
+            background-color: #333333;
+        }
+    #title{
+        background-color:#010101;
+        color: #eeeeee;
+    }
+/* meat mods */
+        p{
+            background-color: #dddddd;
+            color: #010101;
+        }
+
+        ul{
+            background-color: #dddddd;
+            color: #010101;
+        }
+
+/*meat class id work*/
+        .div3{
+            background-color: #919191;
+        }
+
+
+        
+/*links*/
+        a:link{
+            color: #e34747;
+        }
+
+        a:visited{
+            color: #33ee77;
+        }
+
+        a:hover{
+            color: #ffff00
+        }
+
+    
