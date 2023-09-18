@@ -1,0 +1,35 @@
+/* header */
+#block1 {
+    background-color: #354a54;
+    color: #eeeeee;
+}
+#pomph{
+    color: #ee6633;
+    background-color: #333333;
+}
+
+/* body */
+#pomp{
+    background-color: #777777;
+
+}
+#inf{
+    background-color: #333333;
+    color: #ee5555;
+}
+
+#footer {
+    background-color: #66ca7c
+}
+
+/* misc. */
+    
+a:link {
+    text-decoration: none;
+    color: #3ca76c;
+}
+
+a:hover {
+    color: #7d2;
+    text-decoration: underline;
+}
