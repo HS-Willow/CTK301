@@ -1,0 +1,31 @@
+.global{
+    font-family: Helvetica, Arial, sans-serif
+
+}
+    
+#req{
+    text-align: center;
+
+}
+
+#just{
+    text-align: justify;
+}
+
+.header{
+    color: orange;
+    font-weight: normal;
+    font-style: italic;
+}
+
+body{
+    background-image: url(bg.jpg);
+
+}
+
+img{
+    border: 24px solid #000000;
+    padding: 20px;
+    background-color: #ffff00;
+}
+
