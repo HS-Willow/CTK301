@@ -1,17 +1,17 @@
 /*body links*/
-main a:link{
+main p a:link{
     color: #0000ff;
     text-decoration: none;
     font-weight: bold;
 }
 
-main a:visited{
+main p a:visited{
     color: #0000ff;
     text-decoration: none;
     font-weight: bold;
 }
 
-main a:hover{
+main p a:hover{
     color: #ff0000;
     text-decoration: underline;
     font-weight: bold;
