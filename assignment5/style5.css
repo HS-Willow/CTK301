@@ -1,0 +1,111 @@
+/*body links*/
+a:link{
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: #0000ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* button specific */
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav li{
+    background-color: #173b89;
+    width: 200px;
+    display: inline-block;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+}
+
+nav li a:hover{
+    background-color: #5a81d7;
+    text-decoration: none;
+}
+
+nav li a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* global */
+body{
+    background-image: url(a5bg.png);
+}
+
+#divide{
+    border-top: 4px solid #000000;
+    padding-top: 16px;
+}
+
+p{
+    text-align: justify;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-bottom: 16px;
+    font-size: 21px;
+}
+
+#island{
+    background-color: white;
+    padding-left: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 56px
+}
+
+#island2{
+    background-color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    margin-top: 56px;
+    margin-bottom: 32px;
+}
+
+h1{
+    font-weight: normal;
+    font-family: helvetica, arial, sans-serif;
+}
+
+h2{
+    font-family: helvetica, arial, sans-serif;
+}
+
+footer{
+    background-color: #452ca9;
+    border: 4px solid;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: verdana, arial, sans-serif;
+    padding: 16px;
+}
+
+footer p{
+    text-align: center;
+}
