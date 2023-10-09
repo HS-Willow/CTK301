@@ -1,0 +1,101 @@
+/*global*/
+#block{
+    border: 2px solid black;
+    align-content: center;
+    margin: 1em auto;
+    width:1080px;
+    background-color: white;
+}
+
+body{
+    background-image: url(a62.png);
+}
+
+/*navigation*/
+nav a{
+    display: block;
+    background-color: rgb(43, 114, 43);
+    border: 2px solid black;
+    width: 192px;
+    padding-top: 24px;
+    Padding-bottom: 24px;
+    margin: 8px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul{
+    margin: 8px;
+    padding: 0px;
+}
+
+header h1{
+    display: block;
+    background-color: rgb(126, 126, 194);
+    margin: 0px;
+    padding-left: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid black;
+}
+
+/*main*/
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+#mainl{
+    grid-column: span 3;
+    margin-right: 8px;
+}
+
+#mainl h2{
+    border-bottom: solid 2px black;
+    padding-top:8px;
+}
+
+#mainl img{
+    float: right;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+#mainl a{
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+}
+
+#mainr{
+    grid-column: span 1;
+    background-color: rgb(125, 125, 194);
+    padding: 8px;
+    color: white;
+}
+
+#mainr h2{
+    border-bottom: 2px solid white;
+}
+
+#it{
+    font-style: italic;
+}
+
+
+footer{
+background-color: blue;
+border-top:2px solid black;
+padding: 8px;
+
+}
