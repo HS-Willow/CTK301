@@ -34,7 +34,6 @@ nav ul{
 nav li{
     display: inline-block;
     margin: 0px;
-    align-content: left;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -45,8 +44,6 @@ nav a{
     width: 208px;
     color: rgb(211, 211, 241);
     text-decoration: none;
-    background: linear-gradient(rgb(139, 139, 181),rgb(80, 80, 196));
-    border-right: 4px solid rgb(80, 80, 196);
 }
 
 nav a:visited{
