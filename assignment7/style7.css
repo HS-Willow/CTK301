@@ -74,7 +74,7 @@ footer{
     padding: 4px;
 }
 
-a:link{
+main a:link{
     font-weight: bold;
     color: red;
     text-decoration: none;
