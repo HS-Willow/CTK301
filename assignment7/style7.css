@@ -50,6 +50,7 @@ nav a:link{
 
 nav a:visited{
     color: rgb(211, 211, 241);
+    border-right:  4px solid rgb(80, 80, 196);
 }
 
 nav a:hover{
