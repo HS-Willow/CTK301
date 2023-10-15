@@ -37,7 +37,6 @@ nav li{
     align-content: left;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    background: rgb(80, 80, 196);
 }
 
 nav a:link{
@@ -46,6 +45,7 @@ nav a:link{
     width: 208px;
     color: rgb(211, 211, 241);
     text-decoration: none;
+    border-right:  4px solid rgb(80, 80, 196);
 }
 
 nav a:visited{
