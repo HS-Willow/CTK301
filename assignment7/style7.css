@@ -39,7 +39,7 @@ nav li{
     font-weight: bold;
 }
 
-nav a{
+nav a:link{
     display:block;
     padding: 16px;
     width: 208px;
