@@ -1,0 +1,111 @@
+/* home */
+
+nav ul{
+    list-style: none;
+    
+}
+
+nav li{
+    display: inline block;
+}
+
+nav a{
+    display: block;
+    width: 120px;
+    padding: 8px;
+    background-color: rgb(132, 121, 121);
+        /*background-color element to be changed to an image set by id tags in html later*/
+}
+
+/* game design */
+
+/* art design */
+
+/* bio */
+
+/*Global*/
+.block{
+    align-content:center;
+    width: 960px;
+    margin: 1em auto;
+    margin-top: 72px;
+    Padding: 24px;
+    background-color: rgb(28, 30, 32);
+    padding-top: 0px;
+}
+
+
+.returnlink{
+    align-items: stretch;
+    border-bottom: solid 4px white;
+}
+
+.returnlink h2{
+    width: 120px;
+    float: left;
+    margin-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    padding-left: 2px;
+    border: solid 1px white;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.returnlink h1{
+    display: grid;
+    grid-column: span 1;
+    text-align:center;
+}
+
+body{
+    background-color: rgb(38, 42, 44);
+}
+
+
+main{
+    display: block;
+}
+
+main h2{
+    float: none;
+}
+
+/* text color */
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+
+p{
+    color: white;
+    font-family: "enra-slab-variable", sans-serif;
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
