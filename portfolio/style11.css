@@ -1,0 +1,265 @@
+/* structural */
+body{
+    background-color: rgb(14, 14, 14)
+}
+
+
+.block{
+    align-content:center;
+    width: 960px;
+    margin: 1em auto;
+    background-color: rgb(34, 34, 36);
+    border: 2px solid rgb(48, 48, 48);
+}
+
+footer{
+    margin: 0px;
+    background-color: rgb(125, 97, 97);
+    border-top: 2px solid #000000;
+}
+
+main h2{
+    background-color:#4d3f3f;
+    color: white;
+    padding-left: 8px;
+    padding: 4px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+main h3{
+    color: white;
+    padding-left: 8px;
+    padding: 4px;
+    font-family: Helvetica, sans-serif;
+    border-bottom: 1.5px solid white;
+}
+
+
+main h4{
+    color: white;
+    padding-left: 8px;
+    padding: 4px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+
+h1{
+    font-family: 'Mukta', sans-serif;
+    color: white; 
+    Font-weight: 1600;
+    border-bottom: 2px solid white;
+    padding: 16px;
+    text-align: center;
+}
+
+main p{
+    padding: 16px;
+    color: white;
+}
+
+footer{
+    padding: 8px;
+}
+
+footer p{
+    font-family: Helvetica, sans-serif;
+    display: inline;
+    margin-right: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+footer a{
+    color:rgb(18, 63, 118);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:rgb(153, 172, 196);
+    text-decoration: underline;
+}
+
+footer a:visited{
+    color:rgb(18, 63, 118);
+    text-decoration: none;
+}
+
+
+/* p1 nav */
+        nav{
+            text-align:center;
+        }
+
+        nav ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            background-color:rgb(43, 47, 54);
+            margin: 32px;
+            height: 256px;
+            padding-top: 32px;
+        }
+
+        nav li{
+            display: inline-block;
+        }
+
+        nav li a{
+            display: block;
+            background-color:rgb(150, 157, 165);
+            color: white;
+            text-decoration: none;
+            width: 160px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            text-align: center;
+            margin-right: 48px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            border-radius: 8px;
+            box-shadow: 10px 10px 5px #181818;
+            transition: width 1.0s, background-color 1.5s, margin 1.0s, padding 1.0s;
+        }
+        nav li a:hover{
+            display: block;
+            background-color:rgb(184, 189, 195);
+            color: white;
+            text-decoration: none;
+            width: 192px;
+            padding-top: 29px;
+            padding-bottom: 29x;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 8px;
+        }
+
+        /* gallery shit */
+        .galleries img{
+            width: 128px;
+        }
+
+
+/* p1 shit */
+
+
+#block1left img{
+    float: left;
+}
+
+/* return links on p2-4 */
+.returnlink{
+    border-bottom: 2px solid white;
+}
+
+.returnlink ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.returnlink li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 96px;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #464646;
+    text-align: center;
+    border-right: 2px solid white;
+    font-weight: 12;
+    transition: background-color .75s;
+}
+
+.returnlink li a:hover{
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 96px;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #727374;
+    text-align: center;
+    border-right: 2px solid white;
+    font-weight: 12;
+}
+
+
+.returnlink li{
+    display: inline-block;
+    margin:0px;
+}
+
+
+
+/* game design art layout */
+#marineexerpt{
+    display: block;
+    margin-bottom: 16px;
+}
+
+#marineexerpt img{
+    width: 256px;
+    float: left;
+    margin: 16px;
+}
+
+#block4 img{
+    width: 128px;
+}
+
+#scarexerpt{
+    clear:both;
+    margin: 16px;
+    margin-bottom: 32px;
+}
+
+#scarexerpt img{
+    float:right;
+    margin: 16px;
+}
+
+#broshowcase{
+    clear:both;
+    border-bottom: 1px solid white;
+}
+
+
+/* p2 hell */
+
+#lu1 img{
+    float: left;
+    margin: 16px;
+    overflow: auto
+}
+
+#ru1{
+    clear: both;
+    border-top: 1px solid white;
+}
+
+#ru1 img{
+    float: right;
+    margin: 16px;
+    overflow: auto
+} 
+
+#ga1{
+    clear: both;
+    border-top: 1px solid white;
+}
+
+#ga1 img{
+    float: left;
+    margin: 16px;
+    overflow: auto
+}
+
+.galleries{
+    clear:both;
+}
